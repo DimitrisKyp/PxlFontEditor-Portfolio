@@ -1,0 +1,24 @@
+<div class="canvas-def font-monolt text-black flex justify-evenly items-center bg-canvasDef-normal w-[500px] rounded-xl h-[80px] ">
+  <div class="dimensions flex flex-col w-[200px] h-[75px] justify-around">
+    <div class="width sm:w-[90px] flex justify-between items-center">
+      <span class="w-[60px] sm:hidden">Width</span>
+      <span class="sm:flex hidden">W:</span>
+      <span>
+        <input id="canvas-width" maxlength="2" value="25" class="px-2 w-[45px] rounded-[20px] focus:outline-none">
+      </span>
+      <span>px</span>
+    </div>
+    <div class="height sm:w-[90px] flex justify-between items-center">
+      <span class="w-[60px] sm:hidden">Height</span>
+      <span class="sm:flex hidden">H:</span>
+      <span>
+        <input id="canvas-height" maxlength="2" value="25" class="px-2 w-[45px] rounded-[20px] focus:outline-none">
+      </span>
+      <span>px</span>
+    </div>
+  </div>
+  <div class="def-actions flex flex-row sm:w-[150px] w-[200px] justify-around">
+    <button id="create-btn" class="create px-3 py-2 bg-secondary-normal text-white rounded-[20px] hover:bg-secondary-hover">Create</button>
+    <button id="clear-btn" class="clear px-3 py-2 bg-header-normal text-white rounded-[20px] hover:bg-header-hover">Clear</button>
+  </div>
+</div>
